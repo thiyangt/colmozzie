@@ -5,15 +5,15 @@
 #' \item{Cases}{Total number of notified dengue cases}
 #' \item{Year}{Year}
 #' \item{Week}{Week number to locate the week within a year}
-#' \item{TEM}{average temperature}
-#' \item{TMAX}{maximum temperature}
-#' \item{Tm}{minimum temperature}
+#' \item{TEM}{average temperature of the week(Celcius)}
+#' \item{TMAX}{maximum temperature of the week (Celcius)}
+#' \item{Tm}{minimum temperature of the week (Celcius)}
 #' \item{SLP}{Sea level pressure}
-#' \item{H}{Relative humidity}
-#' \item{PP}{Precipitation}
-#' \item{VV}{Wind velocity}
-#' \item{V}{Visibility}
-#' \item{VM}{Maximum wind velocity}
+#' \item{H}{Relative humidity (%)}
+#' \item{PP}{Precipitation amount(mm)}
+#' \item{VV}{Mean visibility(km)}
+#' \item{V}{Mean wind speed(km//h)}
+#' \item{VM}{Maximum sustained wind speed (Km/h)}
 #' @source weekly epidemiological reports published by the Epidemiological Unit, Ministry of Health, Sri Lanka
 #'
 #' @examples
