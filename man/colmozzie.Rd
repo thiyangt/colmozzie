@@ -4,7 +4,21 @@
 \name{colmozzie}
 \alias{colmozzie}
 \title{Weekly notified dengue cases in Sri Lanka}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 279 rows and 12 columns.}
+\format{A data frame with 279 rows and 12 variables
+\describe{
+\item{Cases}{Total number of notified dengue cases}
+\item{Year}{Year}
+\item{Week}{Week number to locate the week within a year}
+\item{TEM}{average temperature of the week(Celcius)}
+\item{TMAX}{maximum temperature of the week (Celcius)}
+\item{Tm}{minimum temperature of the week (Celcius)}
+\item{SLP}{Sea level pressure}
+\item{H}{Relative humidity (\%)}
+\item{PP}{Precipitation amount (mm)}
+\item{VV}{Mean visibility (km)}
+\item{V}{Mean wind speed (km/h)}
+\item{VM}{Maximum sustained wind speed (Km/h)}
+}}
 \source{
 weekly epidemiological reports published by the Epidemiological Unit, Ministry of Health, Sri Lanka
 }
