@@ -3,7 +3,7 @@
 colmozzie
 =========
 
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-NA-6666ff.svg)](https://cran.r-project.org/) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/colmozzie)](https://cran.r-project.org/package=colmozzie) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.0-orange.svg?style=flat-square)](commits/master) [![Rdoc](https://www.rdocumentation.org/badges/version/colmozzie)](https://www.rdocumentation.org/packages/colmozzie)
+[![Rdoc](https://www.rdocumentation.org/badges/version/colmozzie)](https://www.rdocumentation.org/packages/colmozzie)
 
 ------------------------------------------------------------------------
 
@@ -41,6 +41,9 @@ head(colmozzie)
 #> 4  7.1500 11.100
 #> 5  3.2000  6.825
 #> 6  5.5500 10.300
+```
+
+``` r
 summary(colmozzie)
 #>      Cases            Year           Week            TEM       
 #>  Min.   :  0.0   Min.   :2009   Min.   : 1.00   Min.   :24.19  
