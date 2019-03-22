@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+colmozzie
+=========
+
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-NA-6666ff.svg)](https://cran.r-project.org/) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/colmozzie)](https://cran.r-project.org/package=colmozzie) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.0-orange.svg?style=flat-square)](commits/master) [![Rdoc](https://www.rdocumentation.org/badges/version/colmozzie)](https://www.rdocumentation.org/packages/colmozzie)
+
+------------------------------------------------------------------------
+
+[![Travis-CI Build Status](https://travis-ci.org/thiyangt/colmozzie.svg?branch=master)](https://travis-ci.org/thiyangt/colmozzie)
+
+R package for weekly notified dengue cases and climate variables in Colombo Sri Lanka
+
+Installation
+------------
+
+```r
+# Install the development version from GitHub
+install.packages("devtools")
+devtools::install_github("thiyangt/colmozzie")
+library(colmozzie)
+```
+
+Example
+-------
+
+```{r}
+library(colmozzie)
+head(colmozzie)
+summary(colmozzie)
+```
+
