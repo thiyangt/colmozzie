@@ -3,7 +3,7 @@
 colmozzie
 =========
 
-\[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/colmozzie)\](<https://cran.r-project.org/package=colmozz> [![](http://cranlogs.r-pkg.org/badges/colmozzie)](http://cran.rstudio.com/web/packages/colmozzie/index.html) [![Rdoc](https://www.rdocumentation.org/badges/version/colmozzie)](https://www.rdocumentation.org/packages/colmozzie)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/colmozzie)](https://cran.r-project.org/package=colmozzie) [![](http://cranlogs.r-pkg.org/badges/colmozzie)](http://cran.rstudio.com/web/packages/colmozzie/index.html) [![Rdoc](https://www.rdocumentation.org/badges/version/colmozzie)](https://www.rdocumentation.org/packages/colmozzie)
 
 ------------------------------------------------------------------------
 
